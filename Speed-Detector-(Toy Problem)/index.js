@@ -15,7 +15,6 @@ function calculateDemeritPoints(speed) {
     }
   }
   
-  // Prompt the user for the car's speed
   const speedInput = parseFloat(prompt("Enter the car's speed (km/h):"));
   
   if (!isNaN(speedInput)) {
